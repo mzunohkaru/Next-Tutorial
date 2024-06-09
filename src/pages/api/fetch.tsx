@@ -11,7 +11,7 @@ interface SearchCatImage {
   height: number;
 }
 
-export default function Fetch() {
+export function Fetch() {
   const [catImageUrl, setCatImageUrl] = useState("");
 
   const fetchCatImage = async (): Promise<SearchCatImage> => {
